@@ -22,6 +22,7 @@ public class HelloServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Olá, Mundo! Deploy via Jenkins CI/CD funcionando!</h1>");
+            out.println("<h1>Arquivo HelloServlet alterado pela primeira vez!</h1>");
             out.println("</body>");
             out.println("</html>");
         }
